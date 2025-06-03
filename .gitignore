@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Salida de compilación TypeScript
+dist/
+build/
+
+# Archivos temporales de nodemon / ts-node-dev
+*.log
+*.tmp
+tmp/
+.pids/
+
+# Configuración del entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de sistema / editor
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de cobertura de tests
+coverage/
+
+# Archivos de lock opcionales
+package-lock.json
+
+# Configuración de IDE (VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+*.sw?
+
+# Archivos de test temporales
+*.test.ts.snap
